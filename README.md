@@ -32,6 +32,7 @@ Or use
 ```bash
 chmod +x install.sh
 chmod +x setup.py
+./install.sh
 ```
 This will install the required dependencies:
 - art
