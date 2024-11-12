@@ -2,6 +2,15 @@
 
 import itertools
 import os
+import pyfiglet
+from art import *
+
+
+# ASCII Art Text
+print(pyfiglet.figlet_format("Welcome to Custom Wordlist Generator"))
+
+# ASCII Art Image
+print(text2art("Generate!"))
 
 
 def get_user_input():
