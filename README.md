@@ -12,14 +12,14 @@ A custom wordlist generator designed for penetration testing. This Python script
 
 ## Prerequisites
 
-Before using the script, make sure your system has Python 3 and `pip` installed. If not, please refer to the installation instructions below.
+Before using the script, make sure your system has `Python 3` and `pip` installed. If not, please refer to the installation instructions below.
 
 ## Installation
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/wordlist-generator.git
+git clone https://github.com/unnideeraj/Custom_Wordlist_Generator.git
 cd wordlist-generator
 ```
 ### 2. Run the installation script
@@ -53,35 +53,35 @@ To install the Python package locally:
 ```bash
 pip install .
 ```
-### Usage
+## Usage
 After the installation, you can run the wordlist generator as follows:
 ```bash
 generate
 ```
 
-### If nothing works
-you can directly run the python program each time by using `** python wordlist_generator.py**`.
+## If nothing works
+you can directly run the python program each time by using **` python wordlist_generator.py `**.
 
 Follow the prompts to input personal data (e.g., first name, last name, pet name, etc.). The script will generate a custom wordlist and save it to a specified file.
 
-### Adding to PATH
-If you want to run the script from anywhere on your system, you can add the directory to your `**PATH**`. The installation script will ask if you want to do this. Choose `**yes**` or `**no**` based on your preference.
+## Adding to PATH
+If you want to run the script from anywhere on your system, you can add the directory to your **`PATH`**. The installation script will ask if you want to do this. Choose **`yes`** or **`no`** based on your preference.
 
-### Manually add to PATH
-If you want to manually add the script to your `**PATH**`, follow these steps:
+## Manually add to PATH
+If you want to manually add the script to your **`PATH`**, follow these steps:
 
-Find the directory where `**wordlist_generator.py**` is located.
-Add the directory to your `**PATH**` by modifying the `**.bashrc**`, `**.zshrc**`, or equivalent file depending on your shell:
+Find the directory where **`wordlist_generator.py`** is located.
+Add the directory to your **`PATH`** by modifying the **`.bashrc`**, **`.zshrc`**, or equivalent file depending on your shell:
 
 ```bash
 export PATH=$PATH:/path/to/directory
 ```
 
-### Note
+## Note
 This tool is intended for use in penetration testing and ethical hacking. Please use it responsibly and only on systems where you have permission to conduct security testing.
 
-### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -89,13 +89,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [pyfiglet](https://pypi.org/project/pyfiglet/) for ASCII text generation.
 - [itertools](https://docs.python.org/3/library/itertools.html) for generating combinations and permutations.
 
-
-### Notes for Customization:
-```php
-
-- Replace `https://github.com/yourusername/wordlist-generator.git` with your actual GitHub repository URL.
-- Modify the "License" and "Acknowledgments" sections according to your actual project details.
-- Add any other specific instructions, features, or dependencies that your project may require.
-```
-
-This `README.md` file will provide clear instructions for users to understand, install, and use your project.
