@@ -43,32 +43,32 @@ This will install the required dependencies:
 ### 3. Run the program
 After suuccessfull installation open terminal and run **`generate`** to run the script.
 
-### 4. Manual installation if above automated script doesn't work.
-#### 4.1. Make the script executable (if needed)
+#### 4. Manual installation if above automated script doesn't work.
+##### 4.1. Make the script executable (if needed)
 If you want to run the `**wordlist_generator.py**` script directly:
 ```bash
 chmod +x wordlist_generator.py
 ```
-#### 4.2. Install the package
+##### 4.2. Install the package
 To install the Python package locally:
 ```bash
 pip install .
 ```
-## Usage
-After the installation, you can run the wordlist generator as follows:
+## 5. Usage
+After the installation, you can run the wordlist generator as follows anywhere from the terminal:
 ```bash
 generate
 ```
 
-## If nothing works
+### If nothing works
 you can directly run the python program each time by using **` python wordlist_generator.py `**.
 
 Follow the prompts to input personal data (e.g., first name, last name, pet name, etc.). The script will generate a custom wordlist and save it to a specified file.
 
-## Adding to PATH
+### Adding to PATH
 If you want to run the script from anywhere on your system, you can add the directory to your **`PATH`**. The installation script will ask if you want to do this. Choose **`yes`** or **`no`** based on your preference.
 
-## Manually add to PATH
+### Manually add to PATH
 If you want to manually add the script to your **`PATH`**, follow these steps:
 
 Find the directory where **`wordlist_generator.py`** is located.
