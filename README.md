@@ -1,4 +1,4 @@
-# Wordlist Generator
+# Wordlist Generator For Targeted Dictionary Attack
 
 A custom wordlist generator designed for penetration testing. This Python script allows you to generate password variations based on user input such as first name, last name, age, pet name, and more. It includes a variety of transformations like leetspeak, reverse strings, and more to generate a highly customized wordlist.
 
@@ -26,7 +26,7 @@ cd Custom_Wordlist_Generator
 The **`install.sh`** script will check if Python 3 is installed, install necessary Python dependencies, and optionally add the directory to your **`PATH`**.
 
 ```bash
-bash install.sh
+sudo bash install.sh
 ```
 Or use
 ```bash
