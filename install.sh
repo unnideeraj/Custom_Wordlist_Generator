@@ -27,7 +27,7 @@ fi
 # Install required Python packages
 echo "Installing required Python packages..."
 pip3 install --user art pyfiglet itertools
-pip install --user art pyfiglet itertools
+
 
 # Make script executable
 chmod +x wordlist_generator.py
