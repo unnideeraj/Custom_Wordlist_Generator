@@ -20,7 +20,7 @@ Before using the script, make sure your system has `Python 3` and `pip` installe
 
 ```bash
 git clone https://github.com/unnideeraj/Custom_Wordlist_Generator.git
-cd wordlist-generator
+cd Custom_Wordlist_Generator
 ```
 ### 2. Run the installation script
 The **`install.sh`** script will check if Python 3 is installed, install necessary Python dependencies, and optionally add the directory to your **`PATH`**.
